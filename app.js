@@ -20,7 +20,7 @@ app.use(
   })
 );
 
-const allowedOrigins = ["http://localhost:3000", "http://loveinanswers.site/", "https://loveinanswers.site/"];
+const allowedOrigins = ["http://localhost:3000", "http://loveinanswers.site", "https://loveinanswers.site"];
 
 app.use(
   cors({
